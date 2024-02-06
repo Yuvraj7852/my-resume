@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+  background-color: #222;
+    @media screen {max: width 390px;}
+    @media screen {min: width 391px;
+      
+    }
+    display: flex;
+    flex-direction: column;
+    min-width:144px;
+    margin:0 auto;
+    height:844px;
+    height: fit-content; }
+
+.plate {
+  width:"500";
+  margin: -50% auto;
+  
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  margin:0.1;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 300px;
+  left: 800px;;
+
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 60px;
+  
+}
+.text2 {
+  font-size: 169px;
+  
+}
+.text3 {
+  font-size: 80px; 
+}
+
+/*glow buttons*/
+.container{
+  margin: 100px;;
+  padding: 100px;;
+  background: #262626;
+  width:10px;
+  height: 10px;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  display:flex;
+  position: absolute;
+  top: 95%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style:none;
+  margin: 0 15px;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: #171515;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+}
+
+ul li a:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: #d35400;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+ul li a:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #f6fa0a;
+  filter: blur(6px);
+}
+
+ul li a:hover {
+  color: #f0eeec;
+  box-shadow: 0 0 25px #e0d319;
+  text-shadow: 0 0 15px #f7ceb4;
+}
+.box
+{
+  background-color: #110d09;
+  color: #fff;
+  width: 200px;
+  height: 300px;
+position: absolute;
+  top: 300px;
+  left: 80%;;
+  text-align: center;
+    padding: 10px;
+    margin: bottom 20px}
+
+p6{
+  
+  font-size:35px;
+  filter: drop-shadow(1px 1px 10px  #eaee05)
+}
+
+
+.image{
+  width:50%;
+  height:200px;
+display: flex;
+gap:0.5px;
+padding-top:23%;
+padding-left:35%;
+
+
+
+}
+.image img{
+  width:5%;
+  height:100%;
+  object-fit: contain;
+  object-fit:cover;
+  border: radius 100px;
+  border: 4px solid rgb(16, 216, 189) ;
+  transition:all ease-out 1s;
+  cursor: pointer;
+}
+.image img:hover{
+  width:50%;
+  height:100%;
+}
+
+.y img{
+  box-shadow: #eaee05;
+}
+.y img:hover{
+  filter: drop-shadow(12px 11px 10px  #f1f7e6)
+  
+}
+h3{
+  position: relative;
+  position: relative;
+  margin-left:35%;
+  margin-top:-17%;
+  color: #ccfc6d;
+}
